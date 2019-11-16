@@ -63,14 +63,14 @@ class SleepQualityFragment : Fragment() {
 
         binding.sleepQualityViewModel = sleepQualityViewModel
 
-        sleepQualityViewModel.navigateToSleepTracker.observe(this, Observer {
-            if (it == true) {// Observed state is true.
-                this.findNavController().navigate(
-                        SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
-                sleepQualityViewModel.doneNavigating()
-            }
-        })
+       sleepQualityViewModel.navigateToSleepTracker.observe(this, Observer {
+           if (it == true) { // Observed state is true.
+               this.findNavController().navigate(
+                       SleepQualityFragmentDirections.actionSleepQualityFragmentToSleepTrackerFragment())
+               sleepQualityViewModel.doneNavigating()
+           }
+       })
 
-        return binding.root
-    }
+            return binding.root
+        }
 }
