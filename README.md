@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='SleepTracker.gif' title='Sleep Tracker animated demo' alt='Sleep Tracker demo' />
+<img src='SleepTracker.Demo.gif' title='Sleep Tracker animated demo' alt='Sleep Tracker demo' />
 
 ## Notes
 
